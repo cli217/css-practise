@@ -1,0 +1,94 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:'Lato', sans-serif;
+    font-weight:400;
+    line-height: 1.8em;
+    color:#666;
+}   
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('./img/image1.jpg');
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url('./img/image2.jpg');
+    min-height: 100%;
+}
+
+.pimg3{
+    background-image: url('./img/image3.jpg');
+    min-height: 100%;
+}
+
+.section{
+    text-align: center;
+    padding: 1em;
+}
+
+.ptext{
+position: absolute;
+top:50%;
+width: 100%;
+text-align: center;
+color: #000;
+height: 20%;
+}
+
+.border{
+    background-color: #777;
+    color:#fff;
+    padding: 20px;
+    margin: 0 auto;
+    top: 50%;
+    text-transform: uppercase;
+    font-size:27px;
+letter-spacing: 8px;
+}
+
+.textborder{
+    display: flex;
+    background-color: white;
+    z-index: 1;
+    height: 50%;
+    width: 17em;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    align-items: center;
+    justify-content: center;
+}
+
+.border.trans{
+    background-color:transparent;
+}
+
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+    }
+}
+
+.navbar{
+display: flex;
+background-color: black;
+}
+
+.navbar > p{
+color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
