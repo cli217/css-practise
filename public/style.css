@@ -18,12 +18,12 @@ body, html{
 }
 
 .pimg1{
-    background-image: url('./img/image1.jpg');
+    background-image: url('./img/pp.jpg');
     min-height: 100%;
 }
 
 .pimg2{
-    background-image: url('./img/image2.jpg');
+    background-image: url('./img/pp\ \(1\).jpg');
     min-height: 100%;
 }
 
@@ -84,8 +84,9 @@ display: flex;
 background-color: black;
 }
 
-.navbar > p{
+.navbar > a{
 color: white;
+width: 5em;
 }
 
 .grid{
