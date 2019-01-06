@@ -1,4 +1,4 @@
-body, html{
+/* body, html{
     height:100%;
     margin:0;
     font-size:16px;
@@ -92,4 +92,4 @@ width: 5em;
 .grid{
     display: grid;
     grid-template-columns: 50% 50%;
-}
+} */

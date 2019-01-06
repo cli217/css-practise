@@ -27,7 +27,7 @@ const App = () => {
                 </div>
 
                 <section class="section section-light">
-                    <h2>How to be retarded</h2>
+                    <h2>title1</h2>
                     <p>content</p>
                 </section>
 
@@ -40,7 +40,7 @@ const App = () => {
                 </div>
 
                 <section class="section section-dark">
-                    <h2>How to have bad taste buds</h2>
+                    <h2>title2</h2>
                     <p>content</p>
                 </section>
 
